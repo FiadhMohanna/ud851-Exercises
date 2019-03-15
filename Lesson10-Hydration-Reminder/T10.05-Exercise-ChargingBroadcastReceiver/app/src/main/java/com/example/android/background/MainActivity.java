@@ -122,11 +122,11 @@ public class MainActivity extends AppCompatActivity implements
     // or R.drawable.ic_power_grey_80px it it's not. This method will eventually update the UI
     // when our broadcast receiver is triggered when the charging state changes.
     public void showCharging(boolean flag){
-        if (flag)
-            mChargingImageView.setImageBitmap(BitmapFactory.decodeResource(this.getResources(), R.drawable.ic_power_pink_80px));
+         if (flag)
+            mChargingImageView.setImageResource(R.drawable.ic_power_pink_80px);
         else
-            mChargingImageView.setImageBitmap(BitmapFactory.decodeResource(this.getResources(), R.drawable.ic_power_grey_80px));
-    }
+            mChargingImageView.setImageResource(R.drawable.ic_power_grey_80px);
+     }
 
     /**
      * Adds one to the water count and shows a toast
