@@ -15,4 +15,5 @@
 -->
 <resources>
     <string name="app_name">Explicit Intent</string>
+    <string name="myText">This should change later.</string>
 </resources>
